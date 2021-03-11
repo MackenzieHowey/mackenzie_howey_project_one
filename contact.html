@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f3cd7ad079.js" crossorigin="anonymous"></script>
     <title>Delicious Contact</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <!--Wrapper-->
+      <div class="header__wrapper">
+        <h1>Delicious</h1>
+        <!-- Navigation -->
+        <nav class="header__nav">
+          <ul>
+            <li class="nav__link">
+              <a href="#"> Home </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> About </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Recipes </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Nutrition </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Blog </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Shop </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Contact </a>
+            </li>
+            <li class="nav__link">
+              <a href="">
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+            </li>
+            <li class="nav__link">
+              <a href="">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger__menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- contact form section -->
+
+    <section class="contact__form">
+      <h2>drop us a line</h2>
+      <form action="" method="POST" class="contact__form" name="contactUs">
+        <label for="userName">Name</label>
+        <input type="text" name="userName" id="userName" placeholder="Your Name here" />
+        <label for="userEmail">Email</label>
+        <input type="email" id="userEmail" name="userEmail" placeholder="Your Email" />
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" />
+        <label for="message">Message</label>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <button type="submit">send message<i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </section>
+    <!-- contact aside section -->
+    <section class="contact__aside">
+      <div class="contact__details">
+        <h2>contact details</h2>
+        <p>
+          beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane.
+          Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale
+        </p>
+      </div>
+      <div class="contact__working">
+        <h5>working hours</h5>
+        <p class="contact__hours">MON - FRI: 08:00am - 05:30pm</p>
+        <p class="contact__smText">Not working on Saturdays and Sundays !</p>
+        <h5>Contact INFO</h5>
+        <p class="contact__smText">A delicious restaurant</p>
+        <p class="contact__smText">Toronto, ON</p>
+        <p class="contact__smText">yum@food.com</p>
+        <p class="contact__smText">+1 234 567 8910</p>
+      </div>
+      <div class="contact__contactInfo"></div>
+    </section>
+    <!-- bottom image section -->
+    <div class="contact__bottomImage"></div>
+
+    <!-- begin footer -->
+    <footer class="page__footer">
+      <!-- begin footer wrapper -->
+      <div class="footer__wrapper">
+        <div class="footer__contact__info">
+          <h4 class="footer__heading">Delicious</h4>
+          <ul class="footer__address">
+            <li class="address__item">
+              Soko radicchio bunya nuts gram dulsesilver best parsnip napa cabbage lotus root sea
+              lettuce brussels sprout cabbage.
+            </li>
+            <li class="footer__divider"><hr /></li>
+            <li class="address__item">A delicious restaurant</li>
+            <li class="address__item">Toronto, Ontario</li>
+            <li class="footer__divider"><hr /></li>
+            <li class="address__item">yum@food.com</li>
+            <li class="footer__divider"><hr /></li>
+            <li class="address__item">+1 234 567 8910</li>
+          </ul>
+        </div>
+        <div class="blog__posts__list">
+          <h5 class="footer__heading">Recent Posts</h5>
+          <ul>
+            <li class="blog__post"><a href="#">Beetroot water spinach okra water</a></li>
+            <li class="footer__divider"><hr /></li>
+            <li class="blog__post"><a href="#">Chestnut ricebean pea catsear courgette</a></li>
+            <li class="footer__divider"><hr /></li>
+            <li class="blog__post"><a href="#">Summer purslane spinach arugula pea</a></li>
+            <li class="footer__divider"><hr /></li>
+            <li class="blog__post"><a href="#">Tatsol aubergine spring onion bush</a></li>
+            <li class="footer__divider"><hr /></li>
+            <li class="blog__post"><a href="#">Tomato kale radicchio turnip chicory</a></li>
+            <li class="footer__divider"><hr /></li>
+            <li class="blog__post"><a href="#">Salsify pea sprouts fava bean</a></li>
+          </ul>
+        </div>
+        <div class="footer__subscribe">
+          <h4 class="footer__heading">Subscribe Now</h4>
+          <p class="body__text">Get all of our newest recipes immediately to your inbox!</p>
+          <div class="footer__form">
+            <!-- begin subscribe form -->
+            <form action="#" method="#">
+              <input type="text" placeholder="Enter your email" />
+              <button class="submit">&#8594;</button>
+            </form>
+          </div>
+          <div class="footer__social">
+            <hr />
+            <ul class="social__link__list">
+              <li class="social__link">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li class="social__link">
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li class="social__link">
+                <i class="fab fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>Copyright &copy; 2015 by <span class="polar">Polar</span> All Rights Reserved</p>
+    </div>
+  </body>
 </html>
