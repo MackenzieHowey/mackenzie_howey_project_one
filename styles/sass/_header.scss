@@ -1,0 +1,74 @@
+//  header styles //
+
+header {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  padding: 0;
+}
+
+.burger__menu {
+  display: none;
+}
+
+.header__mainPage {
+  background-image: url(./assets/home/home-1.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.header__contact {
+  background-image: url(./assets/contact/contact-1.jpeg);
+  background-size: cover;
+  height: 60vh;
+}
+
+.header__blog {
+  background-image: url(./assets/blog/blog-1.jpeg);
+  background-size: cover;
+  height: 62vh;
+}
+
+h1,
+.header__nav {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  padding: 17px;
+  font-size: 17px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+
+a:hover {
+  color: #64a604;
+}
+
+.header__wrapper {
+  max-width: 1850px;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav ul {
+  display: flex;
+}

@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/f3cd7ad079.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Delicious Blog</title>
   </head>
   <body>
        <body>
     <!--Header-->
-    <header>
+    <header class="header__blog">
       <!--Wrapper-->
       <div class="header__wrapper">
         <h1>Delicious</h1>
@@ -161,62 +166,51 @@
             <button type="submit">Submit Comment</button>
         </form>
     </section>
-        <!-- begin footer -->
-    <footer class="page__footer">
+   <!-- begin footer -->
+    <footer class="footer__page">
       <!-- begin footer wrapper -->
-      <div class="footer__wrapper">
-        <div class="footer__contact__info">
-          <h4 class="footer__heading">Delicious</h4>
+      <div class="footer__container footer__wrapper">
+        <div class="footer__contact">
+          <h4>Delicious</h4>
           <ul class="footer__address">
-            <li class="address__item">
-              Soko radicchio bunya nuts gram dulsesilver best parsnip napa cabbage lotus root sea
-              lettuce brussels sprout cabbage.
-            </li>
-            <li class="footer__divider"><hr /></li>
-            <li class="address__item">A delicious restaurant</li>
-            <li class="address__item">Toronto, Ontario</li>
-            <li class="footer__divider"><hr /></li>
-            <li class="address__item">yum@food.com</li>
-            <li class="footer__divider"><hr /></li>
-            <li class="address__item">+1 234 567 8910</li>
+            <li class="item1 btm__border">Soko radicchio bunya nuts gram dulse silver best parsnip napa cabbage lotus root sea lettuce brussels sprout</li>
+            <li class="item2">A delicious restaurant</li>
+            <li class="item3 btm__border">Toronto, Ontario</li>
+            <li class="item4 btm__border">yum@food.com</li>
+            <li class="item5">+1 234 567 8910</li>
           </ul>
         </div>
-        <div class="blog__posts__list">
-          <h5 class="footer__heading">Recent Posts</h5>
+        <div class="footer__posts">
+          <h5>Recent Posts</h5>
           <ul>
-            <li class="blog__post"><a href="#">Beetroot water spinach okra water</a></li>
-            <li class="footer__divider"><hr /></li>
-            <li class="blog__post"><a href="#">Chestnut ricebean pea catsear courgette</a></li>
-            <li class="footer__divider"><hr /></li>
-            <li class="blog__post"><a href="#">Summer purslane spinach arugula pea</a></li>
-            <li class="footer__divider"><hr /></li>
-            <li class="blog__post"><a href="#">Tatsol aubergine spring onion bush</a></li>
-            <li class="footer__divider"><hr /></li>
-            <li class="blog__post"><a href="#">Tomato kale radicchio turnip chicory</a></li>
-            <li class="footer__divider"><hr /></li>
+            <li class="blog__post btm__border"><a href="#">Beetroot water spinach okra water</a></li>
+            <li class="blog__post btm__border"><a href="#">Chestnut ricebean pea catsear courgette</a></li>
+            <li class="blog__post btm__border"><a href="#">Summer purslane spinach arugula pea</a></li>
+            <li class="blog__post btm__border"><a href="#">Tatsol aubergine spring onion bush</a></li>
+            <li class="blog__post btm__border"><a href="#">Tomato kale radicchio turnip 
             <li class="blog__post"><a href="#">Salsify pea sprouts fava bean</a></li>
           </ul>
         </div>
         <div class="footer__subscribe">
-          <h4 class="footer__heading">Subscribe Now</h4>
-          <p class="body__text">Get all of our newest recipes immediately to your inbox!</p>
+          <h5>Subscribe Now</h5>
+          <p class="sub__text">Get all of our newest recipes immediately to your inbox!</p>
           <div class="footer__form">
             <!-- begin subscribe form -->
             <form action="#" method="#">
-              <input type="text" placeholder="Enter your email" />
-              <button class="submit">&#8594;</button>
+              <label for="mainEmail"></label>
+              <input type="text" name="mainEmail" placeholder="Enter your email" />
+              <button class="submit"><i class="fas fa-long-arrow-alt-right"></i></button>
             </form>
           </div>
           <div class="footer__social">
-            <hr />
-            <ul class="social__link__list">
-              <li class="social__link">
+            <ul>
+              <li>
                 <i class="fab fa-facebook-f"></i>
               </li>
-              <li class="social__link">
+              <li>
                 <i class="fab fa-twitter"></i>
               </li>
-              <li class="social__link">
+              <li>
                 <i class="fab fa-instagram"></i>
               </li>
             </ul>
@@ -225,7 +219,7 @@
       </div>
     </footer>
     <div class="copyright">
-      <p>Copyright &copy; 2015 by <span class="polar">Polar</span> All Rights Reserved</p>
+      <p>Copyright &copy; 2015 by <span>Polar</span> All Rights Reserved</p>
     </div>
   </body>
 </html>
