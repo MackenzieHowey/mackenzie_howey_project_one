@@ -1,0 +1,249 @@
+// blog main styles //
+
+.blog__wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 61%;
+}
+
+h2,
+h3,
+h5,
+span {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.blog__title {
+  margin-top: 195px;
+  h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+}
+
+.blog__smText {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: black;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.blog__post {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.blog__post:last-child {
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.blog__tags {
+  span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2e2e2e;
+  }
+  p,
+  a {
+    padding: 0 2px;
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 20px;
+  }
+  i {
+    padding: 0 15px;
+  }
+  a:hover,
+  i:hover {
+    color: #64a604;
+  }
+}
+
+.blog__tags:last-child {
+  margin-bottom: 45px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+// blog post writer section //
+
+.blog__writer {
+  display: flex;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.blog__writer__comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f6f6f6;
+  margin-left: 30px;
+  padding: 0 35px;
+  h5 {
+    color: #2e2e2e;
+    font-size: 15px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+  p {
+    line-height: 26px;
+    letter-spacing: 0.4px;
+  }
+}
+
+// related content section //
+
+.blog__related--head {
+  color: #2e2e2e;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.7px;
+  margin-bottom: 20px;
+}
+
+.blog__related {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.blog__related__container {
+  h3 {
+    color: #2e2e2e;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 13px;
+    color: #999999;
+    padding-bottom: 35px;
+  }
+  a {
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 11px;
+    color: #2e2e2e;
+  }
+}
+
+// comment section //
+
+.blog__comments {
+  h5 {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: #2e2e2e;
+    margin: 40px 0;
+  }
+}
+
+.blog__comments--container {
+  display: flex;
+  margin-bottom: 30px;
+  p {
+    color: #2e2e2e;
+  }
+  .blog__comments__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f6f6f6;
+    margin-left: 30px;
+    padding: 8px 22px;
+  }
+  .blog__comments--post {
+    font-size: 15px;
+  }
+}
+
+.blog__comments__name {
+  font-size: 14px;
+  span {
+    color: #2e2e2e;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+}
+
+.blog__comments--date {
+  font-family: "Raleway", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+// leave a comment and form section //
+
+.blog__leave {
+  margin-bottom: 170px;
+  h5 {
+    margin-top: 40px;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    color: #2e2e2e;
+  }
+  p {
+    font-style: italic;
+    font-size: 14px;
+    color: #999999;
+    margin: 7px 0 20px;
+  }
+}
+
+.blog__comment--container {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    background: white;
+    color: #535353;
+    border: 1px solid #d3d2d2;
+    resize: none;
+  }
+  button {
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: none;
+    background: #64a604;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.3px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+  }
+  button:hover {
+    color: #64a604;
+    background: white;
+    padding: 9px 29px;
+    border: 1px solid #64a604;
+  }
+}
+
+.blog__form {
+  input {
+    padding: 17px 0 17px 17px;
+    width: calc(100% / 3 - 10px);
+  }
+  input:nth-of-type(2) {
+    margin: 0 10px;
+  }
+  textarea {
+    margin-top: 18px;
+    width: 100%;
+    padding: 17px 0 0 17px;
+  }
+}

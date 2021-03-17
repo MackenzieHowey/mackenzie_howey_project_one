@@ -1,0 +1,139 @@
+// Contact main section //
+p {
+  margin: 0;
+}
+
+.contact__container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.contact__form__wrapper {
+  width: 62%;
+}
+
+.contact__form {
+  width: 70%;
+  float: right;
+  margin-right: 7px;
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    background: #f6f6f6;
+    color: #535353;
+    border: none;
+    margin: 15px;
+  }
+  h2 {
+    margin: 0 0 45px 15px;
+    color: #2e2e2e;
+  }
+  button {
+    margin-left: 15px;
+    margin-top: 5px;
+    border: none;
+    background: white;
+    color: #64a604;
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: 0.3px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+  }
+  button:hover {
+    color: white;
+    background: #64a604;
+  }
+  i {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+
+.short {
+  padding: 19px 175px 19px 17px;
+}
+
+.long {
+  padding: 19px 580px 19px 17px;
+}
+
+.contact__txtArea {
+  padding: 19px 480px 50px 14px;
+  resize: none;
+}
+
+// aside section //
+
+.contact__aside {
+  width: 40%;
+  height: 100%;
+  background-color: #f6f6f6;
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+  width: 40%;
+  h5 {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #2e2e2e;
+  }
+  h2 {
+    margin-top: 100px;
+    color: #333333;
+  }
+}
+
+.contact__details__top {
+  margin: 40px 0 65px;
+}
+
+.contact__working {
+  font-family: "Lora", serif;
+  span {
+    color: #2e2e2e;
+    font-size: 13px;
+  }
+  .contact__hours {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+.contact__smText,
+.contact__smText2 {
+  color: #999999;
+  font-size: 13px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.contact__info {
+  margin: 60px 0 10px;
+}
+
+.contact__smText2 {
+  margin-top: 25px;
+}
+
+.contact__bottomImage {
+  height: 65vh;
+  background-image: url(./assets/contact/contact-2.jpeg);
+  background-size: cover;
+}
