@@ -27,7 +27,7 @@ h2 {
 }
 
 p {
-  color: #666666;
+  color: $darkergrey;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.3px;
@@ -44,9 +44,9 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f6f6f6;
+  background-color: $offwhite;
   a {
-    background: #64a604;
+    background: $maingreen;
     color: white;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -55,14 +55,14 @@ p {
   }
   a:hover {
     background: white;
-    color: #64a604;
+    color: $maingreen;
     padding: 9px 49px;
-    border: 1px solid #64a604;
+    border: 1px solid $maingreen;
   }
 }
 
 .green__line {
-  border-bottom: 4px solid #64a604;
+  border-bottom: 4px solid $maingreen;
   width: 8%;
 }
 
@@ -70,7 +70,7 @@ p {
 
 .main__select {
   display: flex;
-  background-color: #f6f6f6;
+  background-color: $offwhite;
 }
 
 .main__image2,
@@ -103,7 +103,7 @@ p {
     margin: 0;
   }
   p {
-    color: #999999;
+    color: $maingrey;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -111,7 +111,7 @@ p {
   }
   i {
     font-size: 35px;
-    color: #333333;
+    color: $blacktwo;
   }
 }
 
@@ -141,7 +141,7 @@ p {
   p {
     width: 60%;
     margin: 0 auto;
-    color: #999999;
+    color: $maingrey;
     margin-top: 30px;
   }
   h2 {
@@ -150,7 +150,7 @@ p {
 }
 
 .green__line2 {
-  border-bottom: 4px solid #64a604;
+  border-bottom: 4px solid $maingreen;
   width: 5%;
   margin: 0 auto;
 }
@@ -175,7 +175,7 @@ p {
 
 .main__testimony {
   height: 75vh;
-  background: #dded9a;
+  background: $secondgreen;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,7 +212,7 @@ p {
 }
 
 .green__line3 {
-  border-bottom: 4px solid #64a604;
+  border-bottom: 4px solid $maingreen;
   width: 4%;
   margin: 0 auto;
 }
@@ -224,6 +224,6 @@ p {
     padding: 100px 20px 20px 20px;
   }
   i:hover {
-    color: #64a604;
+    color: #$maingreen;
   }
 }

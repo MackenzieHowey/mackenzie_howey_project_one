@@ -60,7 +60,7 @@ span {
   }
   a:hover,
   i:hover {
-    color: #64a604;
+    color: $maingreen;
   }
 }
 
@@ -83,11 +83,11 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #f6f6f6;
+  background-color: $offwhite;
   margin-left: 30px;
   padding: 0 35px;
   h5 {
-    color: #2e2e2e;
+    color: $blackone;
     font-size: 15px;
     line-height: 36px;
     letter-spacing: 0.5px;
@@ -102,7 +102,7 @@ span {
 // related content section //
 
 .blog__related--head {
-  color: #2e2e2e;
+  color: $blackone;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.7px;
@@ -117,20 +117,20 @@ span {
 
 .blog__related__container {
   h3 {
-    color: #2e2e2e;
+    color: $blackone;
     margin-top: 25px;
     margin-bottom: 0;
   }
   p {
     font-size: 13px;
-    color: #999999;
+    color: $maingrey;
     padding-bottom: 35px;
   }
   a {
     padding: 0;
     font-family: "Raleway", sans-serif;
     font-size: 11px;
-    color: #2e2e2e;
+    color: $blackone;
   }
   img {
     width: 100%;
@@ -143,7 +143,7 @@ span {
   h5 {
     font-size: 14px;
     letter-spacing: 0.6px;
-    color: #2e2e2e;
+    color: $blackone;
     margin: 40px 0;
   }
 }
@@ -152,13 +152,13 @@ span {
   display: flex;
   margin-bottom: 30px;
   p {
-    color: #2e2e2e;
+    color: $blackone;
   }
   .blog__comments__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f6f6f6;
+    background-color: $offwhite;
     margin-left: 30px;
     padding: 8px 22px;
     position: relative;
@@ -176,7 +176,7 @@ span {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #f6f6f6;
+  border-right: 10px solid $offwhite;
   position: absolute;
   top: 10px;
   left: -10px;
@@ -185,7 +185,7 @@ span {
 .blog__comments__name {
   font-size: 14px;
   span {
-    color: #2e2e2e;
+    color: $blackone;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 36px;
@@ -209,12 +209,12 @@ span {
     margin-top: 40px;
     font-size: 15px;
     letter-spacing: 0.6px;
-    color: #2e2e2e;
+    color: $blackone;
   }
   p {
     font-style: italic;
     font-size: 14px;
-    color: #999999;
+    color: $maingrey;
     margin: 7px 0 20px;
   }
 }
@@ -234,7 +234,7 @@ span {
     margin-top: 15px;
     padding: 10px 30px;
     border: none;
-    background: #64a604;
+    background: $maingreen;
     color: white;
     font-size: 14px;
     font-weight: 700;
@@ -244,10 +244,10 @@ span {
     text-transform: uppercase;
   }
   button:hover {
-    color: #64a604;
+    color: $maingreen;
     background: white;
     padding: 9px 29px;
-    border: 1px solid #64a604;
+    border: 1px solid $maingreen;
   }
 }
 

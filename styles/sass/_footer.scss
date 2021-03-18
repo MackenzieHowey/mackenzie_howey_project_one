@@ -18,7 +18,7 @@ ul {
 }
 
 .footer__page {
-  background-color: #333333;
+  background-color: $blacktwo;
   height: 55vh;
 }
 
@@ -46,7 +46,7 @@ ul {
   h4 {
     font-size: 40px;
     text-transform: uppercase;
-    color: #64a604;
+    color: $maingreen;
     line-height: 44px;
     letter-spacing: 0.3px;
   }
@@ -57,13 +57,13 @@ ul {
   p,
   a {
     font-family: "Lora", serif;
-    color: #999999;
+    color: $maingrey;
     font-size: 14px;
     margin: 0;
     padding: 3px 0;
   }
   a:hover {
-    color: #64a604;
+    color: $maingreen;
   }
 }
 
@@ -108,14 +108,14 @@ ul {
   }
   button {
     border: none;
-    background: #64a604;
+    background: $maingreen;
     color: white;
     padding: 10.5px 15px;
     font-size: 20px;
     position: absolute;
   }
   button:hover {
-    color: #64a604;
+    color: $maingreen;
     background: white;
   }
 }
@@ -132,7 +132,7 @@ ul {
     padding: 10px 20px 10px 0;
   }
   li:hover {
-    color: #64a604;
+    color: $maingreen;
   }
 }
 
@@ -146,7 +146,7 @@ ul {
   font-family: "Raleway", sans-serif;
   line-height: 44px;
   letter-spacing: 0.3px;
-  color: #999999;
+  color: $maingrey;
   display: flex;
   align-items: center;
   p {
@@ -155,7 +155,7 @@ ul {
     padding-left: 370px;
   }
   span {
-    color: #64a604;
+    color: $maingreen;
     text-transform: uppercase;
   }
 }
