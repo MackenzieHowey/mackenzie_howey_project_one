@@ -58,16 +58,19 @@ p {
 }
 
 .short {
-  padding: 19px 175px 19px 17px;
+  padding: 19px 17px 19px 17px;
+  width: 45.5%;
 }
 
 .long {
-  padding: 19px 580px 19px 17px;
+  padding: 19px 17px 19px 17px;
+  width: 95%;
 }
 
 .contact__txtArea {
-  padding: 19px 480px 50px 14px;
+  padding: 19px 14px 50px 14px;
   resize: none;
+  width: 95%;
 }
 
 // aside section //

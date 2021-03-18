@@ -8,10 +8,6 @@ body {
   padding: 0;
 }
 
-.burger__menu {
-  display: none;
-}
-
 .header__mainPage {
   background-image: url(./assets/home/home-1.jpeg);
   background-size: cover;
@@ -72,4 +68,8 @@ a:hover {
 
 .header__nav ul {
   display: flex;
+}
+
+.nav--shopping {
+  position: relative;
 }
