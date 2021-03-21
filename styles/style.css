@@ -313,7 +313,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #2e2e2e;
   padding: 17px;
   font-size: 17px;
   font-weight: 700;
@@ -349,6 +349,16 @@ a:hover {
 
 .nav--shopping {
   position: relative;
+}
+
+.nav__hamburger {
+  text-align: right;
+  margin-right: 20px;
+  display: none;
+}
+
+.nav__hamburger i {
+  font-size: 50px;
 }
 
 .main__popular {
@@ -1251,6 +1261,9 @@ ul {
 }
 
 @media (max-width: 1130px) {
+  .header__nav {
+    margin-top: 0;
+  }
   .header__nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1259,6 +1272,14 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align: right;
+    display: none;
+  }
+  .header__nav ul.display {
+    display: block;
+  }
+  .nav__hamburger {
+    display: block;
   }
   .header__wrapper {
     -webkit-box-align: start;

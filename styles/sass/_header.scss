@@ -73,3 +73,12 @@ a:hover {
 .nav--shopping {
   position: relative;
 }
+
+.nav__hamburger {
+  text-align: right;
+  margin-right: 20px;
+  display: none;
+  i {
+    font-size: 50px;
+  }
+}

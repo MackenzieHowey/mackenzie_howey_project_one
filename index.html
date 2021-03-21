@@ -20,7 +20,10 @@
         <h1>Delicious</h1>
         <!-- Navigation -->
         <nav class="header__nav">
-          <ul>
+          <div class="nav__hamburger">
+              <i class="fas fa-bars"></i>
+          </div>
+          <ul class="aNav">
             <li class="nav__link">
               <a href="./index.html"> Home </a>
             </li>
@@ -268,5 +271,21 @@
     <div class="copyright">
       <p>Copyright &copy; 2015 by <span>Polar</span> All Rights Reserved</p>
     </div>
+    <script>
+      const hamburger = document.querySelector('.nav__hamburger')
+
+      const navStuff = document.querySelector('.aNav')
+
+      hamburger.addEventListener("click", function(){
+        if(event.target.tagName === "I") {
+          displayNav(navStuff);
+        }
+      })
+
+      function displayNav(nav){
+        nav.classList.toggle("display")
+      }
+
+    </script>
   </body>
 </html>
