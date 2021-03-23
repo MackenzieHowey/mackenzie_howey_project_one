@@ -1288,15 +1288,6 @@ ul {
   }
 }
 
-@media (max-width: 500px) {
-  .header__wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 @media (max-width: 1745px) {
   .main__text2 {
     margin-top: 100px;
